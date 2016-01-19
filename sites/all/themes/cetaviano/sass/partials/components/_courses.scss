@@ -134,7 +134,10 @@
         text-align: center;
         margin: 0 auto;
         padding-bottom: 100px;
-        width: 450px;
+        width: 92%;
+        @include mquery("medium") {
+            width: 450px;
+        }
         form {
             @include font-size(16);
             text-align: left;
