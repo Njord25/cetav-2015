@@ -27,7 +27,7 @@
     padding: 0;
 }
 
-div .views-exposed-form,
+.header div .views-exposed-form,
 #block-system-main-menu {
     display: none;
 
@@ -179,7 +179,7 @@ div .views-exposed-form,
     body {
         overflow: hidden;
     }
-    span, 
+    span,
     a {
         color: $main-color;
         padding-bottom: 3px;
